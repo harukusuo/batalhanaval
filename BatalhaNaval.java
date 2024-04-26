@@ -230,7 +230,7 @@ class Mapa {
             for (int i = 0; i < tamanho; i++) {
                 matriz[linha][coluna + i] = (char) ('A' + tamanho - 1);
             }
-        } else { // aq vai fica horizontal
+        } else { // aq vai fica vertical
             if (linha + tamanho > TAMANHO) {
                 return false;
             }
